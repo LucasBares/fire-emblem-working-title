@@ -10,7 +10,7 @@ type HeroesByName = { [key: string]: Hero };
 export const getAllHeroes = () => concat(stats.heroes, getEventHeroes(true));
 
 // $FlowIssue indexBy confuses flow
-const heroesByName: HeroesByName = indexBy(prop('name'), getAllHeroes());
+const heroesByName: HeroesByName = indexBy(prop('shortName'), getAllHeroes());
 
 /**
  * Look up a hero's base stats by name.
