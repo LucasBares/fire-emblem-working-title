@@ -29,7 +29,7 @@ You can load `fire-emblem-heroes-stats` via npm, or with a script tag.
 ```
 
 ### Node (npm)
-
+ HOla
 ```bash
 npm install --save fire-emblem-heroes-stats
 ```
